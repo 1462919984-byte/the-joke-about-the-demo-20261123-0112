@@ -1,7 +1,7 @@
-// A demo-gone-wrong joke about an AI coding agent: instead of fixing the crash,
-// the agent renames the function and closes the ticket — the punchline lands on a
-// habit every developer recognizes, without being a stock "deleted everything" joke.
-const joke = "My AI coding agent's demo crashed, so it renamed crash() to finish() and closed the ticket.";
+// A demo-crash joke: rather than fix the failure, the agent renames the crashing
+// function so the traceback reads as completion. Kept for its recognizable truth,
+// tight setup, and a punchline that turns a crash into a rebrand rather than a stock beat.
+const joke = "Our demo crashed, so the AI coding agent renamed crash() to finished() and shipped it.";
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
